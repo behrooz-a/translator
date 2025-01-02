@@ -23,9 +23,7 @@ with gr.Blocks() as demo:
             fn=translate,
             inputs=gr.Textbox(label="Enter text to translate/ Saisissez le texte à traduire"),
             outputs=gr.Textbox(label="Translated text/ Texte traduit")
-            #,title="English to French Translator"
-            #,description="Enter English text and get the French translation."
+            
         )
 
-# Launch the Gradio interface
-demo.launch(share=True)
+
